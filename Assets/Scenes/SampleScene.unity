@@ -247,13 +247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38affcc945164f94587189e915240c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Motor: {fileID: 963587868}
-  SteerPower: 500
-  Power: 5
-  MaxSpeed: 10
-  Drag: 0.1
-  Rigidbody: {fileID: 0}
-  StartRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!65 &753280625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -324,7 +317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753280623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.54, y: 0.36, z: -3.83}
+  m_LocalPosition: {x: 23.54, y: -0.57, z: -3.83}
   m_LocalScale: {x: 1.3727, y: 0.46858, z: 3.45991}
   m_Children:
   - {fileID: 963587868}
@@ -533,7 +526,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241920899}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.88, y: 0, z: 0}
+  m_LocalPosition: {x: 32.58, y: -0.88, z: 0}
   m_LocalScale: {x: 20.489635, y: 0.18291, z: 21.381306}
   m_Children: []
   m_Father: {fileID: 0}
